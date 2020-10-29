@@ -1,1 +1,31 @@
-body {}
+@font-face {
+    font-family: 'lobsterregular';
+    src: url('lobster-regular-webfont.woff2') format('woff2'),
+         url('lobster-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+nav {
+    background-color: #0096eb;
+    height: 75px;
+    
+}
+
+nav ul{
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    line-height: 75px;
+    width: 195px;
+    font-family: 'lobsterregular';
+    font-size: 24px;
+}
