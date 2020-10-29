@@ -4,8 +4,45 @@
          url('lobster-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+@font-face{
+    font-family: 'biorhymeregular';
+    src: url('biorhyme-regular-webfont.woff2') format('woff2'),
+         url('biorhyme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'),
+         url('karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'karlaregular';
+    src: url('karla-regular-webfont.woff2') format('woff2'),
+         url('karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('greatvibes-regular-webfont.woff2') format('woff2'),
+         url('greatvibes-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
+@font-face {
+    font-family: 'sumanaregular';
+    src: url('sumana-regular-webfont.woff2') format('woff2'),
+         url('sumana-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 nav {
     background-color: #0096eb;
     height: 75px;
