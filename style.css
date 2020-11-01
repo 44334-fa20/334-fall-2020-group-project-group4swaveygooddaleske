@@ -66,3 +66,21 @@ li a{
     font-family: 'lobsterregular';
     font-size: 24px;
 }
+
+footer {background-color: #000000;
+    text-align: center;
+}
+
+footer p{display: inline-block;
+    color: white;
+    margin-left: 7em;
+    padding-right: 5em
+}
+
+footer p a{text-decoration: none;}
+footer p a:link{color: white;}
+footer p a:hover{color: white;
+    text-decoration: none;
+}
+footer p a:visited{color: white;}
+footer p a:active{color: white;}
