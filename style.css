@@ -84,3 +84,10 @@ footer p a:hover{color: white;
 }
 footer p a:visited{color: white;}
 footer p a:active{color: white;}
+
+ul {list-style-type: none;}
+li {display: inline-block;
+    width: 300px;
+    padding-top: 10px;
+    margin: 10px;
+}

@@ -16,37 +16,57 @@
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
-<div class="slideshow">
     <h1><a href="index.html"><img src="ScrumptiousCateringLogo-1.png" width="300px" height="300px"></a></h1>
-    <img class="mySlides" src="gallery/arrangedveggies.png" width="480px" height="640">
-    <img class="mySlides" src="gallery/cabob.png" width="480px" height="640">
-    <img class="mySlides" src="gallery/Cater.png" width="480px" height="640">
-    <img class="mySlides" src="gallery/chips.png" width="480px" height="640">
-    <img class="mySlides" src="gallery/cookies.jpg">
-    
-    <button class="left" onclick="DivAdd(-1)">&#10094;</button>
-    <button class="right" onclick="DivAdd(+1)">&#10095;</button>
-
-</div>
-    <script>
-        var slideidx = 1;
-        divs(slideIdx);
-        
-        function DivAdd(x){
-            divs(slideIdx += x);
-        }
-        
-        function divs(n){
-            var x;
-            var y = document.getElementsByClassName("mySlides");
-            if (n > y.length) {slideIdx = 1}
-            if (n < 1) {slideIdx = y.length}
-            for (x = 0; x < y.length; x++) {
-                y[x].style.display = "none";
-            }
-            x[slideIdx-1].style.display = "block";
-        }
-    </script>
+    <ul>
+        <li>
+            <img src="gallery/arrangedveggies.png" alt="Arranged Veggies" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/cabob.png" alt="Cabob" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/Cater.png" alt="Cater" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/chips.png" alt="Chips" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/cookies.jpg" alt="Cookies" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/foodTable.jpg" alt="Food Table" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/foodTable2.jpg" alt="Food Table 2" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/foodTable4.PNG" alt="Food Table 4" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/fruitCabob.jpg" alt="Fruit Cabob" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/insta%20meal.PNG" alt="Meals" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/Insta%202.PNG" alt="Cabob Meals" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/pizza.jpg" alt="Pizza" width="300px" height="400px">
+        </li>
+         <li>
+            <img src="gallery/desert.png" alt="Desert" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/dinning.png" alt="Dinning" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/foodTable3.png" alt="Food Table 3" width="300px" height="400px">
+        </li>
+        <li>
+            <img src="gallery/fruitcup.png" alt="Fruit Cup" width="300px" height="400px">
+        </li>
+    </ul>
 </body>
     <footer>
         <p><a href="contact.html">Place an Order</a><br><br><a href="https://www.ezcater.com/catering/pvt/scrumptious-catering-1">EZCATER</a></p>
