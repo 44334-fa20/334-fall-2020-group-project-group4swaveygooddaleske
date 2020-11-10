@@ -16,8 +16,12 @@
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
+    <div class="forms">
+    <!Map was implemented using W3School Google maps tutorial>
     <h1><a href="index.html"><img src="ScrumptiousCateringLogo-1.png" width="300px" height="300px"></a></h1>
-    <div id="googleMap" style="width:300px;height:400px;"></div>
+    
+    <div class="map">
+    <div id="googleMap" style="width:450px;height:450px;"></div>
     <script>
     function myMap() {
     var mapProp= {
@@ -30,6 +34,11 @@
 
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcyJOhqGcWCmf0epLrzoZtUu13puYi8es&callback=myMap"
         type="text/javascript"></script>
+    </div>
+    
+    <!All forms used some code and concepts from W3Schools at https://www.w3schools.com/html/html_forms.asp>
+    
+    <div class="contact">
     <form>
         <p>Contact Us</p>
         <label for="name">Name:</label><br>
@@ -48,7 +57,9 @@
         <input type="submit">
         <input type="reset">
     </form>
+    </div>
     
+    <div class="booking">
     <form>
         <p>Booking Form</p>
         <label for="fname">First Name</label><br>
@@ -76,9 +87,13 @@
         <label for="eTime">Event Time</label><br>
         <input type="number" id="eTime" name="eTime" required><br>
         <label for="addInfo">Additional Information</label><br>
-        <textarea rows="10" cols="100" name="addInfo">Insert Additional Information</textarea>
+        <textarea rows="10" cols="80" name="addInfo">Insert Additional Information</textarea>
+        <input type="submit">
+        <input type="reset">
         
     </form>
+    </div>
+    </div>
 </body>
     <footer>
         <p><a href="http://www.scrumptiouscateringkc.com/place-an-order/">Place and Order</a><br><br><a href="https://www.ezcater.com/catering/pvt/scrumptious-catering-1">EZCATER</a></p>

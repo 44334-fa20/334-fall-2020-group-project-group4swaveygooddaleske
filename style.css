@@ -121,3 +121,108 @@ li {display: inline-block;
 }
 .collage figure{margin-left: 200px;
 }
+
+.gallery h1 {margin-left: 500px;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+
+.gallery ul {margin-left: 150px;
+    margin-right: 150px;
+}
+.gallery li {margin: none;}
+
+
+/* Found the rotate option for images on W3Schools https://www.w3schools.com/cssref/css3_pr_transform.asp> */
+.sign img {transform: rotate(90deg);
+    position: absolute;
+    right: 150px;
+}
+
+.staff {display: grid;
+    grid-template-columns: 200px, 200px;
+    grid-template-rows: 3;
+    margin-left: 180px;
+    margin-right: 200px;
+    grid-row-gap: none;
+}
+
+.staff h1 {grid-row: 1/2;
+    grid-column: 1/2;
+    margin-left: 80px;
+}
+.staff h2 {margin-left: 80px;
+    font-size: 30px;
+}
+
+.staff .sign {grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.staff figure {margin-top: 50px;
+    grid-column: 1/2;
+}
+
+.staff p {
+    grid-column: 2/3;
+    padding-top: 150px;
+    font-size: 18px;
+}
+
+.staff figcaption {text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.catering {display: grid;
+    grid-template-columns: 2;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.menu h1 {margin-left: 50px;}
+
+.images {grid-column: 2/3;}
+.images img {transform: rotate(90deg);
+    margin-left: 150px;
+}
+.images ul li img {transform: none;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+.menu {grid-column: 1/2;}
+.menu ul li {display: block;}
+
+
+.forms {display: grid;
+    grid-template-columns: 2;
+    margin-left: 200px;
+    margin-right: 200px;
+    column-gap: 10px;
+}
+
+.forms h1, .contact {grid-column: 1/2;}
+.map, .booking {grid-column: 2/3;}
+.map {margin-top: 10px;}
+.contact form {border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #357EC7;
+}
+
+.contact label {color: azure;}
+.contact p {color: azure;}
+
+.booking form{border-style: solid;
+    border-color: #000000;
+    border-width: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #357EC7;}
+
+.booking label {color: azure;}
+.booking p {color: azure;}
