@@ -43,32 +43,57 @@
 
 }
 
-nav {
-    background-color: #0096eb;
-    height: 75px;
-    
+@media only screen and (max-width: 1920px) {
+#wrapper { 
+    margin: 0 auto;
+    width: 82%; 
 }
 
-nav ul{
-    
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+    
+#content-frame {
+        display: flex;
+        align-items: center;
+        width: 85%;
+        margin: 10px auto 150px auto;
+    }
+
+#content-frame p h1 {
+        font-weight: bolder;
+    }
+
+body { font-family: sans-serif;
+        
+    }
+nav {
+    background-color: #cce9ea;
+    width: 100%;
+}
+
 nav ul li{
     list-style-type: none;
-    display: inline;
     text-align: center;
+    width: auto;
+    height: auto;
+    display: inline-block;
 }
 li a{
     display: inline-block;
     text-decoration: none;
-    color:black;
-    line-height: 75px;
-    width: 180px;
+    color: black;
+    line-height: auto;
+    width: 150px;
     font-family: 'lobsterregular';
     font-size: 24px;
 }
 
 footer {background-color: #000000;
     text-align: center;
+    font-family: sans-serif;
 }
 
 footer p{display: inline-block;
@@ -97,14 +122,22 @@ li {display: inline-block;
     grid-gap: none;
 }
 .column1 {grid-column: 1/2;
+    font-family: sans-serif;
+    width: 1000px;
     
 }
+    
 .column1 p{text-align: center;
     margin-left: 230px;
     margin-right: 30px;
     width: 50%;
     font-size: 18px;
-    margin-top: none;
+    margin-top: 70px;
+    background-color: #e1f3f5;
+    padding: 50px;
+    text-align: left;
+    }
+    
 }
 .column1 h1{display: block;
     margin-bottom: none;
@@ -118,8 +151,9 @@ li {display: inline-block;
     text-align: center;
     margin-right: 100px;
     margin-top: 50px;
+    width: 600px;
 }
-.collage figure{margin-left: 200px;
+.collage figure{ margin: 100px 500px 25px 500px;
 }
 
 .gallery h1 {margin-left: 500px;
@@ -142,6 +176,7 @@ li {display: inline-block;
 .staff {display: grid;
     grid-template-columns: 200px, 200px;
     grid-template-rows: 3;
+    margin-top: 25px;
     margin-left: 180px;
     margin-right: 200px;
     grid-row-gap: none;
@@ -164,9 +199,20 @@ li {display: inline-block;
 }
 
 .staff p {
-    grid-column: 2/3;
+   /* rid-column: 2/3;
     padding-top: 150px;
+    font-size: 18px; */
+    
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50%;
     font-size: 18px;
+    margin-top: 70px;
+    background-color: #e1f3f5;
+    padding: 50px;
+    text-align: left;
+    
 }
 
 .staff figcaption {text-align: center;
@@ -226,3 +272,18 @@ li {display: inline-block;
 
 .booking label {color: azure;}
 .booking p {color: azure;}
+
+.logo {
+    width: 150px;
+}
+.a-logo {
+    width: 40%;
+}
+
+}
+@media only screen and (max-width: 2560px) {
+    #wrapper { 
+    margin: 0 auto;
+    width: 90%; 
+}
+}
