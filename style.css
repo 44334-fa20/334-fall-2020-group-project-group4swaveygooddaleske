@@ -129,9 +129,9 @@ li {display: inline-block;
     
 .column1 p{text-align: center;
     margin-right: 30px;
-    margin-left: 300px;
+    margin-left: 200px;
     width: 50%;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 70px;
     background-color: #e1f3f5;
     padding: 50px;
@@ -257,21 +257,21 @@ li {display: inline-block;
     border-width: 5px;
     margin-top: 10px;
     padding: 10px;
-    background-color: #357EC7;
+    background-color: #cce9ea;
 }
 
-.contact label {color: azure;}
-.contact p {color: azure;}
+.contact label {color: #000000;}
+.contact p {color: #000000;}
 
 .booking form{border-style: solid;
     border-color: #000000;
     border-width: 5px;
     margin-top: 10px;
     padding: 10px;
-    background-color: #357EC7;}
+    background-color: #cce9ea;}
 
-.booking label {color: azure;}
-.booking p {color: azure;}
+.booking label {color: #000000;}
+.booking p {color: #000000;}
 
 .logo {
     width: 150px;
