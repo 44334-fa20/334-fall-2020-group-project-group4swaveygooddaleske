@@ -138,7 +138,6 @@ li {display: inline-block;
     text-align: left;
     }
     
-}
 .column1 h1{display: block;
     margin-bottom: none;
     margin-left: 250px;
@@ -279,12 +278,13 @@ li {display: inline-block;
 .a-logo {
     width: 40%;
 }
-
 }
 
-}
 
-@media only screen and (max-width: 768px) {
+
+
+
+@media only screen and (max-width: 1044px) {
     body { display: block;
     }
     #header {display: block;
