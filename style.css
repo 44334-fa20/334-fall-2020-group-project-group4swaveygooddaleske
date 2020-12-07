@@ -144,6 +144,7 @@ li {display: inline-block;
 .container {display: grid;
     grid-template-columns: 2;
     grid-gap: none;
+    padding-left: 225px;
 }
 .column1 {grid-column: 1/2;
     font-family: sans-serif;
