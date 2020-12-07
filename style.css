@@ -125,6 +125,7 @@ footer p{display: inline-block;
     color: white;
     margin-left: 7em;
     padding-right: 5em;
+    font-family: 'sumanaregular'
 }
 
 footer p a{text-decoration: none;}
@@ -285,6 +286,7 @@ li {display: inline-block;
     background-color: #e1f3f5;
     padding: 50px;
     text-align: left;
+    font-family: 'karlaregular';
     
 }
 
@@ -317,7 +319,8 @@ li {display: inline-block;
     padding: 0px;
 }
 .menu {grid-column: 1/2;}
-.menu ul li {display: block;}
+.menu ul li {display: block;
+font-family: 'karlaregular';}
 
 
 .forms {display: grid;
