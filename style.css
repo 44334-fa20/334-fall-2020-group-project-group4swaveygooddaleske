@@ -338,11 +338,15 @@ li {display: inline-block;
 .images img {transform: rotate(90deg);
     margin-left: 150px;
 }
+
+.images ul li img:hover {
+    background-color: #cce9ea;
+}
 .images ul li img {transform: none;
     display: inline-block;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 0px;
+    padding: 25px;
 }
 .menu {grid-column: 1/2;}
 .menu ul li {display: block;}
