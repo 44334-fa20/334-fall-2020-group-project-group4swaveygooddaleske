@@ -253,24 +253,35 @@ li {display: inline-block;
 
 }
 
-
-.gallery h1 {margin-left: 500px;
-    margin-bottom: none;
-    padding-bottom: none;
+.gallery {display: grid;
+    grid-template-columns: 500px, auto, 500px;
+    grid-template-rows: 5000px, auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    column-gap: 20px;
 }
 
-.gallery ul {margin-left: 150px;
-    margin-right: 150px;
-}
-.gallery li {margin: none;}
-
-
-/* Found the rotate option for images on W3Schools https://www.w3schools.com/cssref/css3_pr_transform.asp> */
-.sign img {transform: rotate(90deg);
-    position: absolute;
-    right: 150px;
+.gallery h2 {
+    grid-row: 1/2;
+    text-align: center;
+    padding: 50px;
+    margin: 75px 0px 25px 0px;
+    padding: 10px 100px 10px 100px;
+    background-color: #e1f3f5;
+    font-size: 30px;
 }
 
+.gallery img {display: inline-block;
+    width: 85%;
+    height: 85%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 0px, auto, 0px, auto;
+}
+
+.gallery li {display: inline-block;
+        text-align: center;
+}
 
 
 .staffcontainer {display: grid;
