@@ -656,6 +656,8 @@ input {
         width: 50%;}
     
     .gallery {display: inline-block;
+        margin: auto;
+        padding: auto;
         margin-bottom: 200px;
         }
     .gallery ul li{display: inline-block;}
