@@ -342,27 +342,44 @@ li {display: inline-block;
     grid-template-rows: 3;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 25px;
     font-family: 'karlaregular';
 }
 .menu h1 {margin-left: 50px;}
 
-.images {grid-column: 2/3;
+.images {
+    grid-column: 2/3;
     grid-row: 3/4;
+    display: inline-block;
+    width: 100%;
 }
 
-.images ul li img:hover {
+.images ul li {display: inline-block;
+    width: 175px;
+    height: 175px;
+    padding: auto 10px auto 10px;
+    text-align: center;
+    margin: 50px 10px 10px 10px;
+    
+}
+
+.images ul li:hover {
     background-color: #cce9ea;
 }
+
 .images ul li img {transform: none;
     display: inline-block;
-    margin-left: none;
-    margin-right: none;
-    padding: 25px;
-    margin: none;
+    width: 150px;
+    height: 150px;
 }
-.menu {grid-column: 2/3;
+
+
+.menu {
+    grid-column: 2/3;
     grid-row: 2/3;
+    text-align: left;
 }
+
 .menu details {display: block;
     margin-left: 100px;
 }
