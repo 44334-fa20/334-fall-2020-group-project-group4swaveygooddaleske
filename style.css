@@ -510,5 +510,178 @@ input {
     
 }
     
+    @media only screen and (max-width: 600px) {
+    body { display: block;
+    }
+    #header {display: block;
+    }
+    #content-frame{display: block;
+        margin: auto;
+        padding: auto;
+        float: left;
+        width: 100%;
+        }
+    .container{display: block;
+        margin: auto;
+        padding: auto;
+        width: 100%;
+        float: left;
+}
+.column1 {display: block;
+    margin: auto;
+    padding: auto;
+    float: left;
+    width: 70%;
+    
+}
+    
+.column1 p{text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 70px;
+    background-color: #e1f3f5;
+    text-align: left;
+    font-size: 15px;
+    padding: auto;
+    float: left;
+    }
+    
+
+.column1 h2 {
+    margin: auto;
+    padding: auto;
+    margin-left: none;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+}
+    
+.column2 {
+    float: left;
+    padding: auto;
+    text-align: center;
+    margin-right: none;
+    margin-left: none;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    margin-bottom: 300px;
+}
+        .column2 img {width: 100%;
+        height: 100%}
+    
+    .collage figure{ margin: 25px 25px 25px 25px;
+}
+    .collage figure img {width: 100%;}
+    
+        .staff {margin: auto;
+            padding: auto;
+            display: block;
+            float: left;
+            width: auto;
+        }
+    .staff .staffcontainer{display: block;
+        margin: auto;
+        padding: auto;
+        float: left;
+        width: 100%;
+        margin-bottom: 250px;
+    }
+        .staff .staffcontainer figure{margin: auto;
+            padding: auto;
+            width: 100%;
+        }
+
+    .staff .staffcontainer figure img {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: auto;
+        
+        }
+    .staff .staffcontainer p {float: left;
+        margin: auto;
+        font-size: 15px;
+        padding: auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+        .staff figcaption {float: left;
+            margin: auto;
+            padding: auto;
+        }
+        .staff .staffcontainer h2{text-align: center;
+        }
+    .catering {display: block;
+        margin-bottom: 200px;
+        }
+    .catering .menu {display: block;}
+    .catering .images ul {display: block;
+    }
+    .catering .images ul img {width: 100%;
+        height: 100%;
+    }
+    .catering .images img {margin: none;
+        width: 50%;}
+    
+    .gallery {display: inline-block;
+        margin-bottom: 200px;
+        }
+    .gallery ul li{display: inline-block;}
+    .gallery ul img {height: 50%;
+        width: 50%;}
+    .forms {display: block;
+        margin: auto;
+        padding: auto;
+        width: 100%;
+        margin-bottom: 200px;
+        }
+        .forms .contact {
+            display: block;
+            padding: none;
+        margin: none;
+        float: left;
+        width: 75%;
+            margin-bottom: auto;
+        }
+        .forms h2{display: none;}
+        .map {display: none;}
+        .booking form{display: block;
+            width: 75%;
+            font: 10px;
+        }
+        .contact form {border-style: none;
+        margin-left: 10px;
+            margin-bottom: 5px;
+        }
+        
+        .contact form textarea {width: 85%}
+        
+        .booking form textarea {width: 85%}
+        
+        nav ul li{display: block;
+            margin: none;
+            padding: none;
+            text-align: center;
+            margin-right: 50px;
+        }
+        
+        .container .column1about{margin: auto;
+            padding: auto;
+            width: 90%
+        }
+        
+        .container .column2about {padding: auto;
+            margin: auto;
+            width: 75%;
+        }
+        
+        .container .collage {margin-bottom: 200px;}
+    
+    }
+    
 
 
