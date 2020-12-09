@@ -346,7 +346,7 @@ li {display: inline-block;
     display: inline-block;
     margin-left: none;
     margin-right: none;
-    padding: none;
+    padding: 25px;
     margin: none;
 }
 .menu {grid-column: 2/3;
